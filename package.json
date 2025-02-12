@@ -9,5 +9,14 @@
     "jquery": "^3.7.1",
     "parcel": "^2.13.3",
     "popper.js": "^1.16.1"
+  },
+  "scripts": {
+    "start": "parcel ./*.html",
+    "predeploy": "rm -rf dist && parcel build ./*.html --public-url https://github.com/sergeikofman-dealmaker/artefacts-online",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@parcel/packager-raw-url": "^2.13.3",
+    "@parcel/transformer-webmanifest": "^2.13.3"
   }
 }
