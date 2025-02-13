@@ -11,6 +11,10 @@ shadow {
     filter: drop-shadow(0 0 0.75rem crimson);
 }
 
+a:hover {
+  color: rgb(153, 255, 85);
+}
+
 .title {
     padding-top: 20rem;
 }
