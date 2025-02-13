@@ -1,0 +1,69 @@
+body { 
+    background-image: url('../assets/images/background-top.png');
+    background-size: contain;    
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    /* background-blend-mode: lighten; */
+}
+
+shadow {
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.title {
+    padding-top: 20rem;
+}
+
+@font-face {
+    font-family: 'akira';
+    src: url('../assets/fonts/akira.otf');
+  }
+
+.akira {
+    font-family: 'akira';
+}
+
+.archivo-bold {
+    font-family: "Archivo", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 200;
+  }
+
+.archivo-semibold {
+    font-family: "Archivo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 50;
+  }
+  
+
+  .space-mono-regular {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .space-mono-bold {
+    font-family: "Space Mono", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .space-mono-regular-italic {
+    font-family: "Space Mono", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .space-mono-bold-italic {
+    font-family: "Space Mono", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
