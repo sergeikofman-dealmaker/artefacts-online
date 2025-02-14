@@ -21,6 +21,7 @@ a:hover {
 .middle {
   margin-inline: 28rem;
   min-width: 30%;
+  max-width: 90%;
 }
 
 @font-face {
