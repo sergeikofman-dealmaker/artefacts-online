@@ -19,6 +19,10 @@ a:hover {
     padding-top: 20rem;
 }
 
+.column {
+  margin-inline: 28rem;
+}
+
 @font-face {
     font-family: 'akira';
     src: url('../assets/fonts/akira.otf');
