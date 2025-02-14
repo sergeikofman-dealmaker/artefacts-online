@@ -19,7 +19,8 @@ a:hover {
 }
 
 .middle {
-  margin-inline: 30%;
+  margin-inline: 28rem;
+  min-width: 30%;
 }
 
 @font-face {
@@ -27,50 +28,28 @@ a:hover {
     src: url('../assets/fonts/akira.otf');
   }
 
+@font-face {
+    font-family: 'space-mono-bold';
+    src: url('../assets/fonts/space-mono-bold.ttf');
+  }
+
+@font-face {
+    font-family: 'space-mono-regular';
+    src: url('../assets/fonts/space-mono-regular.ttf')
+  }
+
 .akira {
     font-family: 'akira';
 }
 
-.archivo-bold {
-    font-family: "Archivo", serif;
-    font-optical-sizing: auto;
-    font-weight: 900;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 200;
-  }
+.space-mono-bold {
+  font-family: 'space-mono-bold', serif;
+  font-weight: 600;
+  font-style: normal;
+}
 
-.archivo-semibold {
-    font-family: "Archivo", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-variation-settings:
-      "wdth" 50;
-  }
-  
-
-  .space-mono-regular {
-    font-family: "Space Mono", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .space-mono-bold {
-    font-family: "Space Mono", serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .space-mono-regular-italic {
-    font-family: "Space Mono", serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .space-mono-bold-italic {
-    font-family: "Space Mono", serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
+.space-mono-regular {
+  font-family: 'space-mono-regular', serif;
+  font-weight: 400;
+  font-style: normal;
+}
