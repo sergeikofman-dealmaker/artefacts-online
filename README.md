@@ -1,5 +1,5 @@
 # Artefacts online
-# this is a site made for my upcoming album, "Artefacts"
+this is a site made for my upcoming album, "Artefacts"
 
 https://artefactsonline.ca/
 
