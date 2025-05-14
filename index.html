@@ -8,11 +8,18 @@
         <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
         <link rel="stylesheet" href="./css/index.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="node_modules/p5/lib/p5.min.js"></script>
+        
     </head>
     <body>
         <div class="text-white w-full justify-items-center flex">
-            <div class="container mx-auto max-w-lg">
-                <div class="title text-5xl md:text-6xl akira leading-none">ARTEFACTS</div>
+            <div class="container mx-auto max-w-lg px-2">
+                <script type="module" src="./assets/sketches/sketch.js"></script>
+                <div class="title flex w-full flex-row items-center justify-between">
+                    <div id="sketch-left" class="w-20 h-20 flex items-center justify-start"></div>
+                    <div class="text-4xl md:text-5xl akira leading-none">ARTEFACTS</div>
+                    <div id="sketch-right" class="w-20 h-20 flex items-center justify-end"></div>
+                </div>
                 <div class="flex leading-none">
                     <div class="flex-1 text-xl space-mono-regular">an album by Measure</div>
                     <div style="color:#99FF55" class="flex-1 text-xl space-mono-bold text-right"><a href="https://untitled.stream/library/project/dxz-BG92gAHvLH4I8sDfd" target="_blank">[listen]</a></div>
