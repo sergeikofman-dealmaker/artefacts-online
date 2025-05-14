@@ -1,0 +1,2 @@
+window.addEventListener("DOMContentLoaded",()=>{let e=e=>{let t=0,i=0;return new p5(l=>{l.setup=function(){let t=l.createCanvas(40,40,l.WEBGL);t.parent(e),t.style("display","inline-block"),t.style("vertical-align","middle"),l.noFill(),l.stroke(300),l.strokeWeight(.5)},l.draw=function(){t+=.01*(l.mouseX-t),i+=.01*(l.mouseY-i),l.clear(),l.rotateY(l.millis()/2e3),l.rotateX(.2*l.PI*i/l.height),l.rotateY(-(.2*l.PI*t)/l.width),l.sphere(20,12,12)}})};e("sketch-left"),e("sketch-right")});
+//# sourceMappingURL=index.8937534c.js.map
